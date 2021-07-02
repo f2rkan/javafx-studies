@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FormUygulama1Controller">
+   <children>
+      <VBox layoutX="50.0" layoutY="107.0" prefHeight="400.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="191.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="46.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@\Users\furkan\eclipse-workspace\JavaFX_HataDeneme\src\application\yatay_logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Button fx:id="btn_anamenu" alignment="CENTER" mnemonicParsing="false" onAction="#btn_anamenu_Click" prefHeight="42.0" prefWidth="200.0" text="Anamenü" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_iletisim" alignment="CENTER" mnemonicParsing="false" onAction="#btn_iletisim_Click" prefHeight="42.0" prefWidth="200.0" text="İletişim" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_uyeler" alignment="CENTER" mnemonicParsing="false" onAction="#btn_uyeler_Click" prefHeight="42.0" prefWidth="200.0" text="Üyeler" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_ayarlar" alignment="CENTER" mnemonicParsing="false" onAction="#btn_ayarlar_Click" prefHeight="42.0" prefWidth="200.0" text="Ayarlar" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_cikis" alignment="CENTER" mnemonicParsing="false" onAction="#btn_cikis_Click" prefHeight="42.0" prefWidth="200.0" text="Çıkış" textAlignment="CENTER">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

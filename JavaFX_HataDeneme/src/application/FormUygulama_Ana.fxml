@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FormUygulama_Ana_Controller">
+   <children>
+      <AnchorPane fx:id="anchor_tum" layoutX="6.0" prefHeight="600.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane fx:id="anchor_sol" prefHeight="600.0" prefWidth="186.0" style="-fx-background-color: #8ed;" />
+            <AnchorPane fx:id="anchor_sag" layoutX="183.0" prefHeight="600.0" prefWidth="313.0" style="-fx-background-color: #8ec;">
+               <children>
+                  <Button fx:id="btn_ic" layoutX="21.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn_ic_Click" prefHeight="59.0" prefWidth="123.0" text="İÇ FORM">
+                     <font>
+                        <Font name="Calibri" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_dis" layoutX="166.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn_dis_Click" prefHeight="59.0" prefWidth="123.0" text="DIŞ FORM">
+                     <font>
+                        <Font name="Calibri" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_menu" layoutX="30.0" layoutY="257.0" mnemonicParsing="false" onAction="#btn_menu_Click" prefHeight="43.0" prefWidth="260.0" text="MENÜ">
+                     <font>
+                        <Font name="Calibri" size="17.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_trans_dis" layoutX="30.0" layoutY="313.0" mnemonicParsing="false" onAction="#btn_trans_dis_Click" prefHeight="59.0" prefWidth="260.0" text="TRANSPARAN DIŞ FORM">
+                     <font>
+                        <Font name="Calibri" size="17.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

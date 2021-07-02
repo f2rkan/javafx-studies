@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="application.AlertDialogController">
+   <children>
+      <PasswordField fx:id="txt_pass" alignment="CENTER" layoutX="117.0" layoutY="81.0" promptText="Sifre" />
+      <TextField fx:id="txt_kul" alignment="CENTER" layoutX="117.0" layoutY="36.0" promptText="Kullanıcı Adı" />
+      <Button fx:id="btn_alertInput" layoutX="157.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn_alertInput_Click" prefHeight="59.0" prefWidth="100.0" text="alertInput" />
+      <Button fx:id="btn_combo" layoutX="286.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn_combo_Click" prefHeight="59.0" prefWidth="100.0" text="comboDialog" />
+      <Button fx:id="btn_giris" layoutX="23.0" layoutY="121.0" mnemonicParsing="false" onAction="#btn_giris_Click" prefHeight="59.0" prefWidth="100.0" text="LOGIN" />
+      <Button fx:id="btn_alertBilgi" layoutX="153.0" layoutY="121.0" mnemonicParsing="false" onAction="#btn_alertBilgi_Click" prefHeight="59.0" prefWidth="108.0" text="alertBilgi" />
+      <Button fx:id="btn_alertHata" layoutX="283.0" layoutY="123.0" mnemonicParsing="false" onAction="#btn_alertHata_Click" prefHeight="59.0" prefWidth="100.0" text="alertHata" />
+      <Button fx:id="btn_alertSoru" layoutX="23.0" layoutY="213.0" mnemonicParsing="false" onAction="#btn_alertSoru_Click" prefHeight="59.0" prefWidth="100.0" text="alertSoru" />
+      <Button fx:id="btn_cikis" layoutX="284.0" layoutY="33.0" mnemonicParsing="false" onAction="#btn_cikis_Click" prefHeight="73.0" prefWidth="100.0" text="ÇIKIŞ" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LabelTextFieldButtonController">
+   <children>
+      <AnchorPane fx:id="anchor1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="33.0" layoutY="53.0" prefHeight="23.0" prefWidth="534.0" text="aynı yöne giden iki aracın t süre sonra arasındaki mesafe nedir?">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="155.0" text="Araç 1">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="192.0" text="Araç 2">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="230.0" text="Süre">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_Hiz1" alignment="CENTER" layoutX="110.0" layoutY="151.0" promptText="km" />
+            <TextField fx:id="txt_Hiz2" alignment="CENTER" layoutX="110.0" layoutY="188.0" promptText="km" />
+            <TextField fx:id="text_Hiz3" alignment="CENTER" layoutX="110.0" layoutY="226.0" promptText="h" />
+            <Label layoutX="20.0" layoutY="346.0" text="Aradaki Mesafe: ">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_hesapla" layoutX="110.0" layoutY="281.0" mnemonicParsing="false" onAction="#btn_hesapla_click" text="Hesapla" />
+            <Label fx:id="lbl_sonuc" layoutX="159.0" layoutY="349.0">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_temizle" layoutX="202.0" layoutY="281.0" mnemonicParsing="false" onAction="#btn_temizle_click" text="Temizle" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
